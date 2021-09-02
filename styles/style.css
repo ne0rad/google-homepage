@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 30em;
+}
+
+.content {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+.searchbox {
+    font-size: large;
+    width: 35vw;
+    height: 2em;
+    margin-bottom: 1em;
+    border: 1px solid silver;
+    border-radius: 3em;
+    padding: 0 2em 0 2em;
+}
+
+.btn {
+    width: 10em;
+    height: 3em;
+    font-size: 0.8em;
+    color: rgb(68, 68, 68);
+    margin: 0 1vw 0 1vw;
+    border: none;
+    border-radius: 0.5em;
+    background-color: rgb(233, 233, 233);
+}
+
+.spacer {
+    max-width: 50%;
+}
+.spacer-top {
+    align-self: flex-start;
+}
+.spacer-bottom {
+    align-self: flex-end;
+}

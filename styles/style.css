@@ -39,6 +39,7 @@ html, body {
     height: auto;
     left: 1em;
     top: -3em;
+    opacity: 40%;
 }
 
 .btn {
@@ -51,6 +52,9 @@ html, body {
     border-radius: 0.5em;
     background-color: rgb(240, 240, 240);
 }
+.btn:hover {
+    background-color: rgb(226, 226, 226);
+}
 
 .spacer {
     max-width: 50%;
@@ -60,4 +64,11 @@ html, body {
 }
 .spacer-bottom {
     align-self: flex-end;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }

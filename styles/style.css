@@ -10,6 +10,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 85vh;
     min-height: 30em;
 }
 
@@ -102,16 +103,6 @@ html, body {
 }
 .btn:hover {
     background-color: rgb(226, 226, 226);
-}
-
-.spacer {
-    max-width: 50%;
-}
-.spacer-top {
-    align-self: flex-start;
-}
-.spacer-bottom {
-    align-self: flex-end;
 }
 
 input:focus,

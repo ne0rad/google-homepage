@@ -92,9 +92,9 @@ html, body {
     height: 2em;
     background: transparent;
     margin-bottom: 1em;
-    border: 1px solid silver;
+    border: 1px solid rgb(230, 230, 230);
     border-radius: 3em;
-    padding: 0 2em 0 2em;
+    padding: 0 2.5em 0 2.5em;
 }
 
 .searchbox:hover {
@@ -105,7 +105,7 @@ html, body {
     position: absolute;
     width: 1.5em;
     height: auto;
-    left: 1em;
+    left: 0.8em;
     top: -3em;
     opacity: 40%;
     z-index: -1;
@@ -129,7 +129,6 @@ html, body {
 
 input:focus,
 select:focus,
-textarea:focus,
 button:focus {
     outline: none;
 }
